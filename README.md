@@ -112,10 +112,10 @@ POST /api/v1/auth/register
 Content-Type: application/json
 
 {
-  "fullName": "John Doe",
-  "email": "john@example.com",
+  "fullName": "Joy Doe",
+  "email": "joy@gmail.com",
   "password": "password123",
-  "phone": "+1234567890"
+  "phone": "+919023459233"
 }
 ```
 
@@ -128,8 +128,8 @@ Content-Type: application/json
     "token": "eyJhbGci...",
     "tokenType": "Bearer",
     "userId": 1,
-    "email": "john@example.com",
-    "fullName": "John Doe",
+    "email": "joy@gmail.com",
+    "fullName": "Joy Doe",
     "walletNumber": "WLTABC123456789"
   }
 }
@@ -141,7 +141,7 @@ POST /api/v1/auth/login
 Content-Type: application/json
 
 {
-  "email": "john@example.com",
+  "email": "joy@gmail.com",
   "password": "password123"
 }
 ```
