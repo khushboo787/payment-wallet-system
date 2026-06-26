@@ -1,6 +1,6 @@
 # Payment Wallet System
 
-A production-ready digital payment wallet system built with Spring Boot 3.x, featuring JWT authentication, Redis caching, Kafka event streaming, and MySQL persistence.
+A digital payment wallet system built with Spring Boot 3.x, featuring JWT authentication, Redis caching, Kafka event streaming, and MySQL persistence.
 
 ## Tech Stack
 
